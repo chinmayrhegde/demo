@@ -16,6 +16,7 @@ pipeline {
     // place that happens.
     stage('Build') {
       steps {
+        sh "./gradlew --update-locks assembleDebug"
         sh './gradlew clean assemble'
       }
     }
