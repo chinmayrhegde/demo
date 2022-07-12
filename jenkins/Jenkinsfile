@@ -16,7 +16,7 @@ pipeline {
     // place that happens.
     stage('Build') {
       steps {
-        sh './gradlew clean assemble'
+        sh './gradlew clean assemble --info --debug'
       }
     }
 
