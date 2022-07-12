@@ -13,9 +13,6 @@ buildscript {
 plugins {
     id 'war'
 
-    id "org.sonarqube" version "3.0"
-
-
     // gretty is a gradle plugin to make it easy to run a server and hotswap code at runtime.
     // https://plugins.gradle.org/plugin/org.gretty
     id 'org.gretty' version '3.0.4'
